@@ -54,7 +54,7 @@ body {
 .choose {
     background-color: beige;
     font-size: 30px;
-    padding: 30px;
+    padding: 10px;
     border-radius: 12px;
     border: 5px solid #FF007F;
     transition-duration: 0.5s;
