@@ -1,0 +1,68 @@
+body {
+    background-color: #FFFFF0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.buttonHolder {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.buttonHolder2 {
+    margin-top: 25px;
+    background-color: #392F5A;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.choose {
+    margin: 10px;
+}
+
+.playerCmp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+#playerScore {
+    margin-right: 15px;
+}
+
+#cmpScore {
+    margin-left: 15px;
+}
+
+.allResults {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    margin: 15px;
+}
+
+.choose {
+    background-color: beige;
+    font-size: 30px;
+    padding: 30px;
+    border-radius: 12px;
+    border: 5px solid #FF007F;
+    transition-duration: 0.5s;
+    width: 250px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.choose:hover {
+    background-color: #C1E0F7;
+    color: black;
+}
